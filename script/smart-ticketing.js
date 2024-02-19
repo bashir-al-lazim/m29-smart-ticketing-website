@@ -103,9 +103,9 @@ function discountCalculation(){
 }
 
 function confirm(){
-    if (selectCount > 0 && document.getElementById('number-input').value.length >= 11){
+    if (selectCount > 0 && document.getElementById('number-input').value.length > 0){
         my_modal_1.showModal();
         return
     }
-    alert("Select at least 1 seat and give a 11 digit BD number")
+    alert("Select at least 1 seat and give your phone number")
 }
